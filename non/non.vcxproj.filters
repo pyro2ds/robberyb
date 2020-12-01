@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\hook_funcs">
+      <UniqueIdentifier>{6eaa5df5-5c76-494b-b9f4-3558e835309a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\frame">
+      <UniqueIdentifier>{6ed05d8b-86a8-4a45-bd10-af5fd06ada11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\frame">
+      <UniqueIdentifier>{5539692a-442b-4f6e-a521-dbf1b46a0065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\features">
+      <UniqueIdentifier>{514c709d-dff2-4051-abdc-5ce98110d376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\features">
+      <UniqueIdentifier>{ad9b7a7b-0c42-4e07-940e-ee51f2614c6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hook_funcs.h">
+      <Filter>Source Files\hook_funcs</Filter>
+    </ClInclude>
+    <ClInclude Include="help.h">
+      <Filter>Header Files\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook.h">
+      <Filter>Header Files\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_classes.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="move_player_hook.cpp">
+      <Filter>Source Files\hook_funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="help.cpp">
+      <Filter>Source Files\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_func.cpp">
+      <Filter>Source Files\hook_funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="refresh_ent_list.cpp">
+      <Filter>Source Files\features</Filter>
+    </ClCompile>
+    <ClCompile Include="spawn_loot_hook.cpp">
+      <Filter>Source Files\hook_funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="glimmer_loop_hook.cpp">
+      <Filter>Source Files\hook_funcs</Filter>
+    </ClCompile>
+    <ClCompile Include="get_loot_pos_hook.cpp">
+      <Filter>Source Files\hook_funcs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
